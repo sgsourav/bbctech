@@ -269,9 +269,20 @@
 
     <section id="introduction">
 
-        <h1><a href="#introduction">Introduction</a><small><a href="#html">List of Contents</a></small></h1>
+        <h1><a href="#introduction">Introduction</a><small><a href="#html">Table of Contents</a></small></h1>
 
-        
+        <p>It all started with the <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin Whitepaper</a> by Satoshi Nakamoto, released in 2008. Although this whitepaper presents the core idea behind Bitcoin, it is extremely important to study the <a href="https://github.com/bitcoin/bitcoin">Bitcoin Source Code</a> to appreciate the true beauty of the Bitcoin protocol. The <a href="http://bitcoinbook.cs.princeton.edu/">Bitcoin and Cryptocurrency Technologies</a> book by Narayanan et al. and the <a href="https://bitcoinbook.info/">Mastering Bitcoin</a> book by Antonopoulos are great resources to understand the intricate technical details of Bitcoin. The Coursera course on <a href="https://www.coursera.org/learn/cryptocurrency">Bitcoin and Cryptocurrency Technologies</a> goes hand-in-hand with the book by Narayanan et al., and provides an incredibly accessible explanation of Bitcoin.</p>
+
+<blockquote>
+<p><strong>Why is Bitcoin, Blockchain and Cryptocurrency technology worthy of research?</strong></p>
+
+<p><a href="http://www.jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf">SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies</a> answers this burning question really well, and provides a comprehensive guide to interesting open problems in the area of Bitcoin, Blockchain and Cryptocurrencies. Consider this paper as an essential prerequisite to a research journey into this area.</p>
+</blockquote>
+
+<hr />
+
+<p><em>Note: The resources curated on this page pertain to core technical material related to Bitcoin, Blockchain and Cryptocurrencies. It is strongly advised to thoroughly learn the technical fundamentals of Bitcoin before proceeding any further. The Coursera course mentioned above is a necessary and sufficient pre-requisite that suits this purpose.</em></p>
+
 
     </section>
 
@@ -279,9 +290,26 @@
 
     <section id="cryptography">
 
-        <h1><a href="#cryptography">Cryptography</a><small><a href="#html">List of Contents</a></small></h1>
+        <h1><a href="#cryptography">Cryptography</a><small><a href="#html">Table of Contents</a></small></h1>
 
-        
+        <p>While Bitcoin and traditional blockchain frameworks only borrow standard mechanisms of data digest (hash functions) and entity authentication (digital signatures) from cryptography, the next generation of Cryptocurrencies and Blockchain frameworks have adopted more sophisticated cryptographic tools to address the key issues of traceability and scalability. Considering this, it is important to study a few core modules of cryptography, as follows.</p>
+
+<ul>
+<li>Introduction to Cryptography &mdash; Chapter 1 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br /></li>
+<li>Basic notions of Encryption &mdash; Chapter 2 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br /></li>
+<li>Basic notions of Hash Function &mdash; Chapter 8 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br /></li>
+<li>Basic tools of Public Key Crypto &mdash; Chapter 10 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br /></li>
+<li>Basic notions of Signatures &mdash; Chapter 13 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br /></li>
+<li>Introduction to Elliptic Curves &mdash; Chapter 15 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br /></li>
+<li>ECDSA and Schnorr Signatures &mdash; Chapter 19 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br /></li>
+<li>Zero Knowledge Proof and SNARKs &mdash; Chapter 20 of the <a href="http://toc.cryptobook.us/">Boneh-Shoup Book</a><br />
+<br /></li>
+</ul>
+
+<hr />
+
+<p><em>Note: It is not essential to rigorously study each of the references mentioned above. However, it is required to understand the core concepts behind each of the modules.</em></p>
+
 
     </section>
 
@@ -289,9 +317,38 @@
 
     <section id="consensus">
 
-        <h1><a href="#consensus">Consensus</a><small><a href="#html">List of Contents</a></small></h1>
+        <h1><a href="#consensus">Consensus</a><small><a href="#html">Table of Contents</a></small></h1>
 
-        
+        <p>Consensus is the crux of Bitcoin, Blockchain and Cryptocurrency technologies. While the <a href="https://bitcoin.org/bitcoin.pdf">Bitcoin Whitepaper</a> presented the classic Nakamoto consensus in 2008, it took a number of years to formally present the analysis of the <a href="https://eprint.iacr.org/2014/765.pdf">Bitcoin Backbone Protocol</a>. This seminal work by Garay et al. (2014) has been followed up by a number of theoretical analysis of blockchain protocols in the last few years. The following technical papers are must-reads in this context.</p>
+
+<ul>
+<li><a href="https://eprint.iacr.org/2014/765.pdf">The Bitcoin Backbone Protocol: Analysis and Applications</a> &mdash; Garay et al. (2014)<br /></li>
+<li><a href="https://eprint.iacr.org/2016/454.pdf">Analysis of the Blockchain Protocol in Asynchronous Networks</a> &mdash; Pass et al. (2016)<br /></li>
+<li><a href="https://eprint.iacr.org/2018/302.pdf">Rethinking Large-Scale Consensus</a> &mdash; Pass and Shi (2018)<br />
+<br /></li>
+</ul>
+
+<blockquote>
+<p><a href="http://www.jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf">SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies</a><br />
+Section III offers an overview of open/solved research problems in this domain</p>
+</blockquote>
+
+<h2 id="alternative-protocols">Alternative Protocols</h2>
+
+<p>Building useful (and efficient) alternatives to the Bitcoin Proof-of-Work consensus protocol has also been actively explored by the research community over the last few years. In this context, the following alternative consensus protocols may be considered as must-reads.</p>
+
+<ul>
+<li><a href="https://tools.ietf.org/html/rfc7914">The scrypt Password-Based Key Derivation Function</a> &mdash; Percival and Josefsson (2012)<br /></li>
+<li><a href="https://www.usenix.org/system/files/conference/nsdi16/nsdi16-paper-eyal.pdf">Bitcoin-NG: A Scalable Blockchain Protocol</a> &mdash; Eyal et al. (2016)<br /></li>
+<li><a href="https://eprint.iacr.org/2018/183.pdf">Simple Proofs of Sequential Work</a> &mdash; Cohen and Pietrzak (2018)<br />
+<br /></li>
+</ul>
+
+<blockquote>
+<p><a href="http://www.jbonneau.com/doc/BMCNKF15-IEEESP-bitcoin.pdf">SoK: Research Perspectives and Challenges for Bitcoin and Cryptocurrencies</a><br />
+Section VI offers an overview of open/solved research problems in this domain</p>
+</blockquote>
+
 
     </section>
 
@@ -299,7 +356,7 @@
 
     <section id="decentralization">
 
-        <h1><a href="#decentralization">Decentralization</a><small><a href="#html">List of Contents</a></small></h1>
+        <h1><a href="#decentralization">Decentralization</a><small><a href="#html">Table of Contents</a></small></h1>
 
         
 
@@ -309,7 +366,7 @@
 
     <section id="scalability">
 
-        <h1><a href="#scalability">Scalability</a><small><a href="#html">List of Contents</a></small></h1>
+        <h1><a href="#scalability">Scalability</a><small><a href="#html">Table of Contents</a></small></h1>
 
         
 
@@ -319,7 +376,7 @@
 
     <section id="anonymity">
 
-        <h1><a href="#anonymity">Anonymity</a><small><a href="#html">List of Contents</a></small></h1>
+        <h1><a href="#anonymity">Anonymity</a><small><a href="#html">Table of Contents</a></small></h1>
 
         
 
@@ -329,7 +386,7 @@
 
     <section id="security">
 
-        <h1><a href="#security">Security</a><small><a href="#html">List of Contents</a></small></h1>
+        <h1><a href="#security">Security</a><small><a href="#html">Table of Contents</a></small></h1>
 
         
 
