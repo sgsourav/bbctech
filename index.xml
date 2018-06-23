@@ -36,7 +36,7 @@
       <pubDate>Sun, 10 Jun 2018 21:36:00 +0800</pubDate>
       
       <guid>https://sgsourav.github.io/bbctech/consensus/</guid>
-      <description>Consensus is the crux of Bitcoin, Blockchain and Cryptocurrency technologies. While the Bitcoin Whitepaper presented the classic Nakamoto consensus in 2008, it took a number of years to formally present the analysis of the Bitcoin Backbone Protocol. This seminal work by Garay et al. (2014) has been followed up by a number of theoretical analysis of blockchain protocols in the last few years. The following technical papers are must-reads in this context.</description>
+      <description>Consensus is the essence of Bitcoin, Blockchain and Cryptocurrency technologies. While the Bitcoin Whitepaper presented the classic Nakamoto consensus in 2008, it took a number of years to formally present the analysis of the Bitcoin Backbone Protocol. This seminal work by Garay et al. (2014) has been followed up by a number of theoretical analysis of blockchain protocols in the last few years. The following technical papers are must-reads in this context.</description>
     </item>
     
     <item>
@@ -45,7 +45,8 @@
       <pubDate>Sun, 10 Jun 2018 21:36:43 +0800</pubDate>
       
       <guid>https://sgsourav.github.io/bbctech/decentralization/</guid>
-      <description></description>
+      <description>The Bitcoin Whitepaper envisaged a distributed network of peers incentivised to honestly maintain a global ledger. However, the same incentives resulted in a concentration of power in the Bitcoin mining network, and eventually, the maintenance of the ledger converged to a handful of miners and mining pools. Game Theoretic analysis of Bitcoin and Cryptocurrency incentive design is a fascinating topic. The following works are must-reads in this direction.
+ Analysis of Bitcoin Pooled Mining Reward Systems &amp;mdash; Rosenfeld (2011)</description>
     </item>
     
     <item>
