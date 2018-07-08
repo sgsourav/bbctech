@@ -55,7 +55,7 @@
       <pubDate>Sun, 10 Jun 2018 21:36:17 +0800</pubDate>
       
       <guid>https://sgsourav.github.io/bbctech/scalability/</guid>
-      <description></description>
+      <description>With the adoption of Cryptocurrencies and Blockchain Technology at a dizzying pace, it is of prime importance to reconsider the issues of network scalability and transaction latency. While Bitcoin supports a maximum of 7 tx/sec with a confirmation time of 10 minutes, Visa or Mastercard registers thousands of transactions per second, with lightning confirmation. Thus the most utilitarian research problem is whether decentralized blockchains can be scaled up to match the desired performance.</description>
     </item>
     
     <item>
@@ -64,7 +64,8 @@
       <pubDate>Sun, 10 Jun 2018 21:36:05 +0800</pubDate>
       
       <guid>https://sgsourav.github.io/bbctech/anonymity/</guid>
-      <description></description>
+      <description>Anonymity is a cornerstone of decentralization, and Cryptocurrencies have historically treated anonymity with utmost importance. While Bitcoin only provides pseudonymity and needs mixing networks for privacy, Monero goes one step ahead with ring signatures, and ZeroCash takes it forward with zero-knowledge proofs. Still, to date, de-anonymization and traceability are hot topics for research. The following works are must-reads in this direction.
+ A Fistful of Bitcoins &amp;mdash; Meiklejohn et al. (2013)</description>
     </item>
     
     <item>
